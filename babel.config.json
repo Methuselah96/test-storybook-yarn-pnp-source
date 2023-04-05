@@ -1,0 +1,7 @@
+{
+  "presets": [
+    "@babel/preset-react",
+    ["@babel/preset-env", { "targets": "> 0.5% in US, not IE 11", "useBuiltIns": "usage", "corejs": "3.29" }],
+    "@babel/preset-typescript"
+  ]
+}
