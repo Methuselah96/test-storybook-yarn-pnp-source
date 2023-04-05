@@ -4181,6 +4181,7 @@ __metadata:
     "@storybook/react": ^7.0.2
     "@storybook/react-webpack5": ^7.0.2
     "@storybook/testing-library": ^0.0.14-next.2
+    "@types/react": ^18.0.33
     babel-loader: ^9.1.2
     react: ^18.2.0
     react-dom: ^18.2.0
