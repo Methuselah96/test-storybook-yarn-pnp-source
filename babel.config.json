@@ -1,7 +1,19 @@
 {
   "presets": [
-    "@babel/preset-react",
-    ["@babel/preset-env", { "targets": "> 0.5% in US, not IE 11", "useBuiltIns": "usage", "corejs": "3.29" }],
+    [
+      "@babel/preset-env",
+      {
+        "targets": {
+          "chrome": "100"
+        }
+      }
+    ],
+    [
+      "@babel/preset-react",
+      {
+        "runtime": "automatic"
+      }
+    ],
     "@babel/preset-typescript"
   ]
 }

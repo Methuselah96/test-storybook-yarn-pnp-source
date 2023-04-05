@@ -2941,16 +2941,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/testing-library@npm:^0.1.0":
-  version: 0.1.0
-  resolution: "@storybook/testing-library@npm:0.1.0"
+"@storybook/testing-library@npm:^0.0.14-next.2":
+  version: 0.0.14-next.2
+  resolution: "@storybook/testing-library@npm:0.0.14-next.2"
   dependencies:
     "@storybook/client-logger": ^7.0.0-beta.0 || ^7.0.0-rc.0 || ^7.0.0
     "@storybook/instrumenter": ^7.0.0-beta.0 || ^7.0.0-rc.0 || ^7.0.0
     "@testing-library/dom": ^8.3.0
     "@testing-library/user-event": ^13.2.1
     ts-dedent: ^2.2.0
-  checksum: a413110dafe80f8fe64da912fddb653bc3c695c94bd023b8cb918e519e9f94119bae559909bfb8ad229041a4f17a12b33425c61572270702c116d0b727b4d4ba
+  checksum: c471578493798e74e1f02f4a8cd046f24d1c387f32d5b3469f3331563d93c6dd872937aa9ce6a4dc12832e0c9f378639265c3b6862cbbc0b1887f6e26c102601
   languageName: node
   linkType: hard
 
@@ -4177,6 +4177,7 @@ __metadata:
     "@storybook/addon-essentials": ^7.0.2
     "@storybook/addon-interactions": ^7.0.2
     "@storybook/addon-links": ^7.0.2
+    "@storybook/blocks": ^7.0.2
     "@storybook/react": ^7.0.2
     "@storybook/react-webpack5": ^7.0.2
     babel-loader: ^9.1.2
@@ -4840,13 +4841,6 @@ __metadata:
   version: 3.30.0
   resolution: "core-js-pure@npm:3.30.0"
   checksum: 57573b18d8900ad0a34a0806491bb49774dfcbb6d022b61094d6afc9f6c3d833c1b6c1f5afb5e6a7caca235fa4db00b317de80bfd8ac8e2d9a4f738c4bf233ed
-  languageName: node
-  linkType: hard
-
-"core-js@npm:^3.30.0":
-  version: 3.30.0
-  resolution: "core-js@npm:3.30.0"
-  checksum: 276d4444a1261739ea4c350ef3f6aeab4c7ae7f36ac197f02d197a4566b42867c3a9b12c2fcda8a736aeca888d2c4131c8cb58ad17ed02294a10c9c97606df71
   languageName: node
   linkType: hard
 
@@ -7430,11 +7424,10 @@ __metadata:
     "@storybook/addon-essentials": ^7.0.2
     "@storybook/blocks": ^7.0.2
     "@storybook/react": ^7.0.2
-    "@storybook/testing-library": ^0.1.0
+    "@storybook/testing-library": ^0.0.14-next.2
     "@types/react": ^18.0.33
     "@types/react-dom": ^18.0.11
     babel-loader: ^9.1.2
-    core-js: ^3.30.0
     html-webpack-plugin: ^5.5.0
     react: ^18.2.0
     react-dom: ^18.2.0
